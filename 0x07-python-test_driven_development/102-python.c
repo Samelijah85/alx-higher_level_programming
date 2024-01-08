@@ -3,13 +3,14 @@
 #include <Python.h>
 
 /**
- * print_python_string - Function that prints strings in Python
- * @p: Pointer to python object.
+ * print_python_string - Prints string information
  *
- * Return: No return.
+ * @p: Python Object
+ * Return: no return
  */
 void print_python_string(PyObject *p)
 {
+
 	PyObject *str, *repr;
 
 	(void)repr;
